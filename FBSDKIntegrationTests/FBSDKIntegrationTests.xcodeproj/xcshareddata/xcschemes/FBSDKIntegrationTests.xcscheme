@@ -52,7 +52,7 @@
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
@@ -138,6 +138,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "81ED94111BE147CF00795F05"
+            BuildableName = "Bolts.framework"
+            BlueprintName = "Bolts-iOS"
+            ReferencedContainer = "container:../Carthage/Checkouts/Bolts-ObjC/Bolts.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
